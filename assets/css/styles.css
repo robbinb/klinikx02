@@ -105,12 +105,12 @@ h2 {
 }
 
 .wave-container {
-  background: #fff;
   padding-top: 0px;
+  margin-top: 0px;
+  overflow: hidden;
 }
 
 .wave-container > svg {
-  display: block;
   width: 100%;
   height: auto;
 }
