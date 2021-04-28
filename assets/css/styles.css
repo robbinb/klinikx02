@@ -68,9 +68,15 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 .clean-block .block-heading {
-  padding-top: 50px;
   margin-bottom: 40px;
+  padding-top: 30px;
   text-align: center;
+}
+
+.block-heading.reverse {
+  padding-top: 0px;
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 
 .dark p {
