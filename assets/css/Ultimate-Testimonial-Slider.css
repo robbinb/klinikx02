@@ -55,6 +55,7 @@
   font-family: 'Roboto Condensed', Arial, Sans;
   font-weight: 600;
   text-transform: uppercase;
+  padding: 5px;
 }
 
 #carousel-t .date {
