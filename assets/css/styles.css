@@ -1,0 +1,149 @@
+.body {
+  font-family: 'Roboto Condensed';
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+.navbar {
+  font-size: .9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: rgb(255,255,255,0);
+  -webkit-transition: background-color 300ms linear;
+  -moz-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+
+.scrolled {
+  background-color: rgba(109, 118, 126,1);
+  -webkit-transition: background-color 300ms linear;
+  -moz-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+
+.btn {
+  border-radius: 50px;
+  padding: 15px 20px 15px 20px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: 0px;
+}
+
+.dropdown-menu {
+  background-color: rgba(34, 38, 42, 1);
+  color: #fff !important;
+  border: 0px;
+  -webkit-transition: background-color 500ms linear;
+  -moz-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
+}
+
+.dropdown-menu a {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.clean-hero h2 {
+  margin-bottom: 25px;
+}
+
+@media (min-width:576px) {
+  .clean-block {
+    padding-bottom: 100px;
+  }
+}
+
+.clean-block {
+  background-color: #fff;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.clean-block .block-heading {
+  padding-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.dark p {
+  background-color: rgba(34, 38, 42, 1);
+  color: #f0f9ff;
+  opacity: 0.6;
+}
+
+.clean-block.dark {
+  background-color: rgba(34, 38, 42, 1);
+  color: #f0f9ff;
+}
+
+.block-heading p {
+  max-width: 420px;
+  margin: auto;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 25px;
+}
+
+.nopad {
+  padding: 0px;
+}
+
+/* ============ desktop view ============ */
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item:hover .nav-link {
+  }
+}
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 991.98px) {
+  .navbar {
+    background-color: rgba(109, 118, 126, 1);
+  }
+}
+
+@media only screen and (max-width: 991.98px) {
+  .dropdown-menu {
+    background-color: rgba(109, 118, 126, 0);
+  }
+}
+
+@media only screen and (max-width: 991.98px) {
+  .navbar-nav {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+}
+
+/* ============ desktop view .end// ============ */
+
