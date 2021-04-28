@@ -1,5 +1,5 @@
 .body {
-  font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed', Arial, Sans;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -131,6 +131,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 p {
   margin-bottom: 25px;
+  font-size: 18px;
 }
 
 h2 {
