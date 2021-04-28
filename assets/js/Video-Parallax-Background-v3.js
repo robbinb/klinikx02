@@ -2,7 +2,7 @@
 
 // Function to detect if the user is navigating in a mobile browser
 if (jQuery.browser.mobile) { 
-    $("#videoIntro").hide();
+    $("#videoIntro").show();
 	
 }
 else // Code here will run if the user is navigating the web in a PC
