@@ -31,7 +31,34 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   font-weight: 600;
   font-size: 1rem;
   text-transform: uppercase;
-  border: 0px;
+  border: none;
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+.btn-hero {
+  color: #fff;
+  cursor: pointer;
+  background-size: 600% 100%;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hero:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hero:focus {
+  outline: none;
+}
+
+.btn-hero.color-8 {
+  background-image: linear-gradient(to right, #29323c, #485563, #30dd8a, #2bb673);
 }
 
 .dropdown-menu {
@@ -68,15 +95,19 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 .clean-block .block-heading {
-  margin-bottom: 40px;
-  padding-top: 30px;
+  margin-bottom: 100px;
+  margin-top: 100px;
   text-align: center;
+}
+
+.block-heading.waves {
+  margin-top: 0px;
 }
 
 .block-heading.reverse {
   padding-top: 0px;
-  margin-top: 100px;
-  margin-bottom: 20px;
+  margin-top: 120px;
+  margin-bottom: 0px;
 }
 
 .dark p {
